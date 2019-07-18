@@ -6,10 +6,12 @@ import { AngularMyDatePickerModule } from 'angular-mydatepicker';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TestNestComponent } from './test-nest/test-nest.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TestNestComponent
   ],
   imports: [
     BrowserModule,
